@@ -102,8 +102,32 @@ var sun = function(x){
 }
 
 
-
 sun('sundries')
+
+
+//     9.
+
+
+var tiny = function(x){
+	if(x >= 0 && x <= 1){
+		return "True"
+	}
+	else{
+		return "False"
+	}
+
+}
+
+
+tiny(0.3)
+tiny(14)
+tiny(-5)
+
+
+
+
+
+
 
 
 
