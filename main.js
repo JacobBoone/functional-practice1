@@ -75,5 +75,35 @@ startsWithA('aardvark')
 startsWithA('bear')
 
 
+//    7.
+
+var excite = function(x){
+	return [x +"!!!"];
+}
+
+excite('Yes')
+excite('Javascript is the DEVIL')
+
+
+
+//    8.
+
+
+var sun = function(x){
+	var alwaysLower = x.toLowerCase();
+	var threeLetters = alwaysLower.indexOf("sun");
+	
+	if(threeLetters >= 0){
+		console.log("True");
+	}
+	else{
+		console.log("False");
+	}
+}
+
+
+
+sun('sundries')
+
 
 
