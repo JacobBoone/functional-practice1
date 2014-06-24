@@ -124,10 +124,22 @@ tiny(14)
 tiny(-5)
 
 
+// 10.
+
+var getSeconds = function(x){
+	var pieces = x.split[":"];
+	var result = Number(pieces[0,1]) * 60 + Number(pieces[3,4]);
+	return(result)
+}
 
 
 
 
+
+getSeconds('01:30')
+getSeconds('10:25')
+
+	
 
 
 
